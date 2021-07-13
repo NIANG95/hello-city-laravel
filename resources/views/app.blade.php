@@ -7,12 +7,13 @@
         <title>Hello City</title>
     </head>
     <body >
-        <h1>hello from Dakar !</h1>
-
-        <p>It's currently {{ date('h:i A') }} </p>
+        @yield('content')
 
         <footer>
-            <p>&copy; Copyright {{ date('Y') }} &middot; <a href="/about-us">About Us</a></p>
+            <p>
+                &copy; Copyright {{ date('Y') }} 
+                &middot; <a href="/about-us">About Us</a>
+            </p>
         </footer>
     </body>
 </html>
