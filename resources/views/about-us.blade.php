@@ -3,14 +3,12 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>Hello City</title>
+        <link href="/css/app.css" rel="stylesheet">
+        <title>About Us | Hello City</title>
     </head>
     <body >
-        <h1>hello from Dakar !</h1>
-
-        <p>It's currently {{ date('h:i A') }} </p>
-
+        <p>Built with &hearts; by Mame Sandeck NIANG</p>
+        <p><a href="/"><button class="btn info">Retour à la page d'accueil</button></a></p>
         <footer>
             <p>&copy; Copyright {{ date('Y') }} &middot; <a href="/about-us">About Us</a></p>
         </footer>
